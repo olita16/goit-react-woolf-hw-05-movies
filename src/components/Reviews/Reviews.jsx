@@ -56,7 +56,7 @@ const Reviews = () => {
           ))}
         </StyledReviewList>
       ) : (
-        'No reviews'
+        <p>No reviews</p>
       )}
     </>
   );
